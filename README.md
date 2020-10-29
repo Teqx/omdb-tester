@@ -11,7 +11,7 @@ It is time to run some tests against OMDb API - The Open Movie Database!
 
 ## How to Run the Tests:
 
-1. Replace `"Your_key_here"` in `TestData::BASE_PARAMS` with your key from http://www.omdbapi.com.
+1. Replace `"Your_key_here"` in `TestData::BASE_PARAMS` in `suite/api_spec.rb` with your key from http://www.omdbapi.com.
 2. Run `rake test` in the top level directory.
 
 ## Decisions
