@@ -5,12 +5,14 @@ It is time to run some tests against OMDb API - The Open Movie Database!
 ## How to Set Up Directory:
 
 1. Clone this project to a directory on your machine.
-2. Run `gem install bundler`.
-3. Run `bundle install` in the directory containing `Gemfile.lock`.
+2. Have Ruby installed on your system.
+3. Run `gem install bundler`.
+4. Run `bundle install` in the directory containing `Gemfile.lock`.
 
 ## How to Run the Tests:
 
-Run `rake test` in the top level directory.
+1. Replace `"Your_key_here"` in `TestData::BASE_PARAMS` with your key from http://www.omdbapi.com.
+2. Run `rake test` in the top level directory.
 
 ## Decisions
 
